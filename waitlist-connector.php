@@ -129,7 +129,7 @@ add_shortcode( 'waitlist_form', function () {
 			<?php wp_nonce_field( 'wlc_join', 'wlc_nonce' ); ?>
 			<input type="text" name="wlc_name" placeholder="Your name" required>
 			<input type="email" name="wlc_email" placeholder="Your email" required>
-			<button type="submit" name="wlc_submit" value="1">Join the waitlist</button>
+			<button type="submit" name="wlc_submit" value="1">Join the waitlist now</button>
 		</form>
 
 		<?php if ( null !== $count ) : ?>
